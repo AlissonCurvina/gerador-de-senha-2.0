@@ -1,0 +1,84 @@
+* {
+  margin: 0;
+}
+
+#containerGeral {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	width: 100vw;
+	height: 100vh;
+	background: #ddd;
+}
+
+#input-form {
+  width: 200px;
+  background: #222;
+  color: #fff;
+  border-radius: 5px;
+  padding: 6px;
+}
+
+#options {
+  display: flex;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+#options label {
+  width: 100%;
+  border-radius: 3px 3px 0 0;
+  background: #9b9b9b;
+  margin: 0;
+}
+
+.input {
+  width: 100%;
+  margin: 0;
+  outline: none;
+  border: none;
+  border-radius: 0 0 3px 3px;
+  margin-bottom: 10px;
+}
+
+#options .letra {
+  border-radius: 0;
+}
+
+#visor {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 200px;
+	height: 50px;
+	background: #fff;
+  color: #000;
+  border-radius: 3px 3px 0 0;
+}
+
+#btn {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 200px;
+	height: 50px;
+  border: none;
+  border-radius: 0 0 5px 5px;
+	background: #222;
+	color: #fff;
+  transition: .4s;
+  outline: none;
+}
+
+#btn h1 {
+	font-size: 15pt;
+}
+
+#btn:hover {
+	cursor: pointer;
+	background: #444;
+  color: #000;
+}

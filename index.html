@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset='utf-8'/>
+		<title>Gerador de senhas 2.0</title>
+		<link rel='stylesheet' href='estilo.css'/>
+		<script src='scripts.js'></script>
+	</head>
+
+<body>
+	<div id='containerGeral'>
+		<div id='input-form'>
+			<form id='options'>
+      			<label>Número de letras</label>
+      			<input type='number' class='input' min='2' max='6' placeholder='Escolha um valor entre 2 e 6'/>
+      			<label>Número de dígitos</label>
+      			<input type='number' class='input' min='2' max='6' placeholder='Escolha um valor entre 2 e 6'/>
+				<label>Número de caracteres especiais</label>
+				<input type='number' class='input' min='2' max='6' placeholder='Escolha um valor entre 2 e 6'/>
+				<label>NOVA SENHA</label>
+			</form>
+			<div id='visor'></div>
+			<input type='button' id='btn' value='GERAR SENHA' onclick='start()'/>
+		</div>
+	</div>
+</body>
+
+</html>
